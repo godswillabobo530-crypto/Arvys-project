@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Arvys Taste | Fine Dining</title>
+    <meta name="description"
+        content="Arvys Taste offers a refined dining experience with signature meals, warm hospitality, and memorable evenings." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="topbar">
+            <div class="brand"> Arvys Taste</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="#reservation" class="nav-cta">Book a Table</a>
+        </nav>
+
+        <div class="hero-content reveal">
+            <p class="eyebrow">Curated culinary moments</p>
+            <h1>Where flavor meets elegance.</h1>
+            <p class="subtitle">
+                Savor handcrafted dishes, seasonal ingredients, and a warm ambiance designed for evenings worth
+                remembering.
+            </p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                <a href="#reservation" class="btn btn-secondary">Reserve Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about reveal">
+            <div class="section-heading">
+                <p class="eyebrow dark">Our Story</p>
+                <h2>Dining crafted for unforgettable moments.</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>
+                        At Arvys Taste, we bring together rich local ingredients and global culinary inspiration to
+                        create a dining experience that feels both elevated and personal.
+                    </p>
+                    <p>
+                        From intimate dinners to celebrations with loved ones, every plate is prepared with care,
+                        creativity, and timeless hospitality.
+                    </p>
+                </div>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <span>01</span>
+                        <h3>Fresh ingredients</h3>
+                        <p>Seasonal produce and premium cuts chosen daily.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span>02</span>
+                        <h3>Chef-led menu</h3>
+                        <p>Signature dishes built with artistry and balance.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span>03</span>
+                        <h3>Warm hospitality</h3>
+                        <p>Thoughtful service in a refined, welcoming setting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats reveal">
+            <div class="stat-card">
+                <strong>12+</strong>
+                <span>Years of excellence</span>
+            </div>
+            <div class="stat-card">
+                <strong>4.9/5</strong>
+                <span>Guest rating</span>
+            </div>
+            <div class="stat-card">
+                <strong>1500+</strong>
+                <span>Meals served monthly</span>
+            </div>
+            <div class="stat-card">
+                <strong>24/7</strong>
+                <span>Event reservations</span>
+            </div>
+        </section>
+
+        <section id="menu" class="section menu reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow dark">Signature Menu</p>
+                <h2>Choose your favorite flavor.</h2>
+            </div>
+
+            <div class="menu-filter" aria-label="Menu categories">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="signature">Signature</button>
+                <button class="filter-btn" data-filter="seafood">Seafood</button>
+                <button class="filter-btn" data-filter="dessert">Desserts</button>
+            </div>
+
+            <div class="menu-grid">
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-top">
+                        <h3>Grilled Chicken</h3>
+                        <span>$18</span>
+                    </div>
+                    <p>Char-grilled chicken with roasted vegetables and herb butter glaze.</p>
+                </article>
+
+                <article class="menu-card" data-category="seafood">
+                    <div class="menu-top">
+                        <h3>Seafood Pasta</h3>
+                        <span>$22</span>
+                    </div>
+                    <p>Fresh shrimp, calamari, and saffron cream folded into silky pasta.</p>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-top">
+                        <h3>Beef Tenderloin</h3>
+                        <span>$28</span>
+                    </div>
+                    <p>Butter-soft steak served with potato wedges and rosemary jus.</p>
+                </article>
+
+                <article class="menu-card" data-category="dessert">
+                    <div class="menu-top">
+                        <h3>Chocolate Éclair</h3>
+                        <span>$10</span>
+                    </div>
+                    <p>Light pastry filled with gourmet chocolate cream and cocoa dust.</p>
+                </article>
+
+                <article class="menu-card" data-category="seafood">
+                    <div class="menu-top">
+                        <h3>Catch of the Day</h3>
+                        <span>$24</span>
+                    </div>
+                    <p>Pan-seared fish with lemon beurre blanc and seasonal greens.</p>
+                </article>
+
+                <article class="menu-card" data-category="dessert">
+                    <div class="menu-top">
+                        <h3>Vanilla Cheesecake</h3>
+                        <span>$11</span>
+                    </div>
+                    <p>Silky cheesecake layered with berry compote and caramel crunch.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience reveal">
+            <div class="section-heading">
+                <p class="eyebrow dark">Why Guests Love Us</p>
+                <h2>A refined experience from first bite to last.</h2>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="icon">✦</div>
+                    <h3>Elegant ambiance</h3>
+                    <p>Warm lighting, modern interiors, and a cozy yet upscale atmosphere.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="icon">✧</div>
+                    <h3>Perfect for gatherings</h3>
+                    <p>Private dining and intimate celebrations for personal milestones.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="icon">✨</div>
+                    <h3>Signature cocktails</h3>
+                    <p>Curated mixes and sparkling pairings to complement every meal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials reveal">
+            <div class="section-heading centered">
+                <p class="eyebrow dark">Guest Reviews</p>
+                <h2>Words from our diners.</h2>
+            </div>
+            <div class="testimonial-grid">
+                <blockquote>
+                    “The service was impeccable and the food was beautifully plated. It felt like a complete experience
+                    from start to finish.”
+                    <footer>— Ada M.</footer>
+                </blockquote>
+                <blockquote>
+                    “Arvys Taste has become our go-to place for date nights. Every detail feels thoughtful and premium.”
+                    <footer>— Daniel K.</footer>
+                </blockquote>
+                <blockquote>
+                    “The seafood pasta was outstanding, and the ambiance made the evening feel extra special.”
+                    <footer>— Chidera O.</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="reservation" class="section reservation reveal">
+            <div class="reservation-card">
+                <div class="reservation-copy">
+                    <p class="eyebrow dark">Reserve Your Table</p>
+                    <h2>Plan a memorable evening with us.</h2>
+                    <p>
+                        Whether it’s a casual dinner or a special celebration, we’ll make sure the atmosphere feels just
+                        right.
+                    </p>
+                </div>
+
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="field-group">
+                            <label for="reservation-name">Your name</label>
+                            <input id="reservation-name" type="text" placeholder="Your name" required />
+                        </div>
+                        <div class="field-group">
+                            <label for="reservation-email">Email address</label>
+                            <input id="reservation-email" type="email" placeholder="Email address" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="field-group">
+                            <label for="reservation-date">Date</label>
+                            <input id="reservation-date" type="date" required />
+                        </div>
+                        <div class="field-group">
+                            <label for="reservation-time">Time</label>
+                            <input id="reservation-time" type="time" required />
+                        </div>
+                    </div>
+                    <div class="form-row single">
+                        <div class="field-group">
+                            <label for="reservation-guests">Guests</label>
+                            <select id="reservation-guests" required>
+                                <option value="">Guests</option>
+                                <option>2 Guests</option>
+                                <option>4 Guests</option>
+                                <option>6 Guests</option>
+                                <option>8+ Guests</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Confirm Reservation</button>
+                    <p class="form-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div>
+            <h3>Arvys Taste</h3>
+            <p>Calabar, Nigeria</p>
+        </div>
+        <div>
+            <p>Email: godswillabobo530@gmail.com</p>
+            <p>Phone: +2348038152460</p>
+        </div>
+        <div>
+            <p>Open daily</p>
+            <p>09:00 AM – 10:00 PM</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
